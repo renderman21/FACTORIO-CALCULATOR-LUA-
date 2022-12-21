@@ -70,5 +70,3 @@ function AssemblersNeeded()
     until (quit == true)
 
 end
-
-AssemblersNeeded()

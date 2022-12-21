@@ -49,5 +49,3 @@ function MinerCalculator()
 
     until (quit == true)
 end
-
-MinerCalculator()

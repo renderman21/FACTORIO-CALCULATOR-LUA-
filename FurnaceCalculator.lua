@@ -68,5 +68,3 @@ function FurnaceCalculator()
 
     until (quit == true)
 end
-
-FurnaceCalculator()
