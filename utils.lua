@@ -13,5 +13,8 @@ function ChoiceToQuit()
     else
         return false
     end
+end
 
+function ClearScrn()
+    --Check Operating System
 end
