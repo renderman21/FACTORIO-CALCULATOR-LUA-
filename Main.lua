@@ -5,11 +5,10 @@ require "AssemblersNeeded"
 local function printChoices() 
     print("Choose the following")
 
-    print("[1] Number of Ingredient Assembler Calculator")
-    print("[2] Miner Calculator")
-    print("[3] Smelter Calculator")
-    print("[4] Assemblers Needed (Soelles Version)")
-    print("[5] Exit")
+    print("[1] Miner Calculator")
+    print("[2] Smelter Calculator")
+    print("[3] Assemblers Needed")
+    print("[4] Exit")
 end
 
 ---This is the main function; obviously mimicking Python
@@ -22,17 +21,16 @@ local function main()
 
         local choice = io.read("n")
 
-        if(choice == 1) then
-            --Enter number of ingredient Assembler Calculator
-        elseif (choice == 2) then
+        if (choice == 1) then
             --Enter Miner Calculator
             MinerCalculator()
-        elseif(choice == 3) then
+        elseif(choice == 2) then
             --Enter Smelter Calculator
-        elseif(choice == 4) then
+            FurnaceCalculator()
+        elseif(choice == 3) then
             --Assemblers Needed 
             AssemblersNeeded()
-        elseif(choice == 5) then
+        elseif(choice == 4) then
             --Exit game
             os.exit(1, true)
         end
