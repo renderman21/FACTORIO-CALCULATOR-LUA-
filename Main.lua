@@ -1,5 +1,6 @@
 require "MinerCalculator"
 require "AssemblersNeeded"
+require "FurnaceCalculator"
 
 ---This simply prints the choices
 local function printChoices() 
